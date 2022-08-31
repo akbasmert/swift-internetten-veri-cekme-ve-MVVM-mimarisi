@@ -13,6 +13,7 @@
 		41053ECD28BFC74F002E1F44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41053ECB28BFC74F002E1F44 /* Main.storyboard */; };
 		41053ECF28BFC751002E1F44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41053ECE28BFC751002E1F44 /* Assets.xcassets */; };
 		41053ED228BFC751002E1F44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41053ED028BFC751002E1F44 /* LaunchScreen.storyboard */; };
+		41053EDA28BFCBEC002E1F44 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41053ED928BFCBEC002E1F44 /* NewsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		41053ECE28BFC751002E1F44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41053ED128BFC751002E1F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41053ED328BFC751002E1F44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41053ED928BFCBEC002E1F44 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				41053EC528BFC74F002E1F44 /* AppDelegate.swift */,
 				41053EC728BFC74F002E1F44 /* SceneDelegate.swift */,
 				41053EC928BFC74F002E1F44 /* ViewController.swift */,
+				41053ED928BFCBEC002E1F44 /* NewsCell.swift */,
 				41053ECB28BFC74F002E1F44 /* Main.storyboard */,
 				41053ECE28BFC751002E1F44 /* Assets.xcassets */,
 				41053ED028BFC751002E1F44 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				41053ECA28BFC74F002E1F44 /* ViewController.swift in Sources */,
 				41053EC628BFC74F002E1F44 /* AppDelegate.swift in Sources */,
+				41053EDA28BFCBEC002E1F44 /* NewsCell.swift in Sources */,
 				41053EC828BFC74F002E1F44 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "internetten veri cekme ve MVVM/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "internetten veri cekme ve MVVM/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
